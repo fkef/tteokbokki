@@ -1,0 +1,37 @@
+
+html{background-color: #d1180b;}
+img{width: 500px;}
+
+h1{color: white;
+text-align: center;
+
+
+    font-family: "Bagel Fat One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  
+  
+
+}
+#g{
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    width: 1020px;
+}
+#g th, #g td{
+    border: solid 2px black; padding: 10px;
+}
+
+#g tr:nth-child(even){
+    background-color: #ccc;
+}
+
+#g tr:hover{background-color: white;}
+
+#g th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: #ccc;
+    color: black;
+}
